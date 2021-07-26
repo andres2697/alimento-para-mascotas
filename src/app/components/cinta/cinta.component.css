@@ -1,0 +1,123 @@
+.container-fluid{
+  padding-left: 0;
+  padding-right: 0;
+  /*position: fixed;*/
+  z-index: 2000;
+}
+
+	/*------------------------------------------*/
+	/*--- DISEÑO DE LA CINTA (logo y título)----*/
+	/*------------------------------------------*/
+#cinta-componente{ 
+	width: 100%;
+	background-color:#6EC5B8;
+	color: white;
+	height: 90px;
+	max-width: 4000px;
+	margin:0px;
+	padding: 0px;
+
+ 	position: absolute;
+ 	justify-content: center;
+ 	/*border-bottom: 8px solid #586063;*/
+ 	display: flex;
+ 	flex-wrap: wrap;
+ 	align-content: center;
+ 	flex-direction: column;
+ 	align-items: center;
+ }
+
+ .container-fluid div{
+ 	/*display: flex;*/
+ 	/*justify-content: space-around;*/
+ 	/*align-items: center;*/
+ }
+
+
+#icono-cinta>img{
+ 	height: auto;
+ 	width: auto;
+ 	max-width: 100%
+ }
+
+#icono-facultad-economia>img{
+ 	height: auto;
+ 	width: auto;
+ 	max-width: 100%;
+ }
+
+/*#texto-cinta{
+	display: flex;
+ 	flex-direction: row;
+ 	text-align: center;
+ 	justify-content: center;
+ 	flex-wrap: wrap;
+ 	margin-left: 10px;
+}
+*/
+#cinta-img{
+	width: 25%;
+	height: 90px;
+}
+
+#cinta-busqueda{
+	width: 40%;
+	height: 65px;
+	vertical-align: middle;
+	margin-top: 25px;
+}
+
+ #cinta-titulo{
+ 	width: 35%;
+ 	height: 90px;
+ 	display: flex;
+ 	flex-direction: row;
+ 	text-align: center;
+ 	justify-content: flex-end;
+ 	flex-wrap: wrap;
+ 	padding-right: 10px;
+ 	padding-left: 10px;
+ }
+
+ .area-menu{
+ 	display: flex;
+ 	flex-direction: column;
+ 	justify-content: center;
+ 	flex-wrap: wrap; 
+ 	padding: 20px;
+ 	/*transition: color 0.3s ease-in-out;*/
+ 	/*-webkit-transition: background-image 3s ease-in-out;*/
+ 	/*transition-delay: 8s;*/
+ }
+
+.area-menu:hover{
+	/*color:rgb(110, 197, 184);*/ /*color verde chicle*/
+	/*color: white;*/
+	/*background-color: rgba(255, 255, 255, 0.7);*/
+	background-image: url('./../../assets/img/circulo.png');
+	  /*background-attachment: fixed;*/
+	background-repeat: no-repeat;
+	background-position: center;
+  	background-size: 80% 80%;
+	cursor: pointer;
+}
+
+.area-menu i{
+ 	font-size: 15pt;
+}
+
+#lupa{
+	font-size: 15pt;
+	color: #6EC5B8;
+	padding: 8px;
+	background-color: white;
+	border-top-right-radius: 30%; 
+	border-bottom-right-radius: 30%; 
+}
+
+.objetivo{
+ 	font-size: 12pt;
+ 	margin-top: 10px;
+ 	font-weight: bold;
+ }
+

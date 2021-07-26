@@ -1,0 +1,35 @@
+.secciones{
+ 	width: 100%;
+ 	height: auto;
+ 	display: flex;
+ 	justify-content: space-around;
+ 	text-align: center;
+ 	flex-direction: row;
+ 	font-size: 11pt;
+ 	/*margin-top: 60px;*/
+ 	padding-top: 90px;
+ 	margin-bottom: 20px;
+ 	color: #6EC5B8;
+ 	background-color: rgba(255, 255, 255, 0.8);
+ 	box-shadow: 0px 10px 10px -6px #8a9597;
+ }
+
+ .ancla-secciones{
+ 	width: 100%;
+ 	font-weight: bolder;
+ 	padding-top: 15px;
+ 	padding-bottom: 15px;
+ 	transition: all 0.5s ease-in-out;
+ 	vertical-align: middle;
+ 	align-self: center;
+ }
+
+ .ancla-secciones span{
+ 	vertical-align: middle;
+ }
+
+  .ancla-secciones:hover{
+  	color: white;
+ 	background-color: rgba(110, 197, 184, 0.7);
+ 	cursor: pointer;
+  }

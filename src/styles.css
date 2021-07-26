@@ -1,0 +1,79 @@
+@font-face{
+	font-family: letraelegante;
+	src: url(SawarabiMincho-Regular.ttf);
+}
+
+body{
+	/*background-image: url("../img/fondo-saife.jpg");*/
+	/*background-color: rgba(205, 205, 205, 0.2);*/
+	background-color: rgba(130, 161, 177, 0.2);
+	font-family: letraelegante, arial, georgia, times, serif;
+	/*background-repeat : no-repeat;*/
+	/*background-position : center;*/
+	/*background-attachment : fixed;*/
+	background-size: cover;
+	margin: 0px;
+	padding: 0px;
+}
+
+app-root{
+	width: 100%;
+	height: auto;
+}
+
+.titulos{
+	background-color: #6EC5B8; 
+	font-weight: bold; font-size: 25pt; 
+	color: white; 
+	width: 100%; 
+	height: auto; 
+	text-align: center; 
+	vertical-align: middle;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#introduccion{
+	width: 100%; 
+	height: auto; 
+	display: flex; 
+	flex-direction: column;
+	justify-content: center;
+	background-color: rgba(130, 161, 177, 0.2);
+	margin-top: 20px;
+	
+	/*background-color: red;*/
+}
+
+footer{
+	bottom: 0;
+	/*position: relative;*/
+	/*background-color: rgba(130, 161, 177, 0.2);*/
+	background-color: #6EC5B8;
+	width: 100%;
+	height: auto;
+}
+
+.contacto{
+	margin-bottom: 0;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 30px;
+	color: white;
+	font-size: 25pt;
+}
+
+.contacto ul{
+	margin-bottom: 0;
+	text-decoration: none;
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	text-align: center;
+	width: 30%;
+	padding-left: 0;
+}
